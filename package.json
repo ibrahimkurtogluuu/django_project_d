@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d django_project_d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimkurtogluuu/django_project_d.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimkurtogluuu/django_project_d/issues"
+  },
+  "homepage": "https://ibrahimkurtogluuu.github.io/django_project_d",
   "dependencies": {
     "gh-pages": "^4.0.0"
   }
